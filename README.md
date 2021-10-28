@@ -1,4 +1,4 @@
-MQTT / KAFKA Connect Using Confluent
+MQTT / Kakfa Connect Using Confluent
 
 `Download local confluent`
 
@@ -31,8 +31,8 @@ curl -s -X POST -H 'Content-Type: application/json' http://localhost:8083/connec
 ```
 
 Check connector is running:
-curl -s "http://localhost:8083/connectors"
-curl -s "http://localhost:8083/connectors/mqtt-source/status"
+`curl -s "http://localhost:8083/connectors"`
+`curl -s "http://localhost:8083/connectors/mqtt-source/status"`
 
 Create kafka topic:
 `kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic mqtt.temperature`
