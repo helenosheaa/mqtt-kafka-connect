@@ -39,7 +39,8 @@ Create kafka topic:
 
 Start MQTT Subscriber & Kafka Consumer
 
-`go run ./main.go`
+`go build main.go`
+`./main`
 
 Start sensor generator script
 
