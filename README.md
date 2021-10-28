@@ -1,10 +1,10 @@
 MQTT / Kakfa Connect Using Confluent
 
-`Download local confluent`
+Download local confluent:
 
 https://docs.confluent.io/platform/current/quickstart/cos-quickstart.html
 
-Install Kafka Connect
+Install Kafka Connect:
 
 `confluent-hub install confluentinc/kafka-connect-mqtt:latest`
 
